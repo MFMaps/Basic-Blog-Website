@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    font-family: 'Play', sans-serif;
+}
+
+.navbar {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: #111;
+}
+
+.active {
+    background: #4caf50;
+}
+
+body {
+    background: rgb(150, 150, 150);
+}
+
+#blog-h1 {
+    color: wheat;
+    margin-top: 100px;
+}
+
+#blog-h2 {
+    color: ivory;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    font-size: large;
+}
+
+#socials {
+    position: relative;
+    font-size: large;
+    color: white;
+}
+
+#down-there {
+    margin-top: 100px;
+    color: rgb(231, 210, 203);
+}
+
+#about-me {
+    margin-top: 100px;
+    color: gainsboro;
+    font-size: 24px;
+}
+
+#my-socials {
+    color: #467;
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 15px;
+}
+
+p#link {
+    width: 125px;
+}
+
+p#link a {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p#non-link {
+    font-size: 16px;
+    width: 125px;
+    text-align: left;
+    cursor: default;
+}
+
+.yt-l {
+    cursor: default;
+}
+
+h1#youtube-life {
+    margin-top: 100px;
+    color: rgb(226, 226, 226);
+    font-family: 'Mukta', sans-serif;
+}
+
+p#youtube {
+    font-family: 'Mukta', sans-serif;
+    color: rgb(68, 68, 68);
+}
+
+p#recommend {
+    font-size: large;
+    font-family: 'Mukta', sans-serif;
+}
+
+.coder {
+    cursor: default;
+    font-family: 'Mukta', sans-serif;
+}
+
+h1#coding {
+    margin-top: 100px;
+    color: rgb(226, 226, 226);
+}
+
+p#p-coder {
+    color:rgb(68, 68, 68);
+}
+
+p#coder {
+    font-size: large;
+}
+
+span#red-text {
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
+}
